@@ -45,7 +45,7 @@ Date:08/03/2025
             <h2>About Me</h2>
             <!--Message 1-->
             <p> I am passionate devloper in attending school at ECPI.</p>
-        </section>
+            </section>
 
         <section id="projects">
             <h2>Projects</h2>
@@ -93,6 +93,37 @@ Date:08/03/2025
             <h2>Contact</h2>
             <!--Message 3-->
             <p>If you would like to get in touch email is the best way to reach me.</p>
+             <form class="contact-form" action="#" method="post">
+                <div>
+                    <!--Label name-->
+                    <label for="name">Name:</label>
+                    <!--Required-->
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div>
+                    <!--Label email-->
+                    <label for="email">Email:</label>
+                    <!--Repuired-->
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <!--Label subect-->
+                    <label for="subjet">Subject</label>
+                    <input type="text" id="subjet" name="subject">
+                </div>
+
+                <div>
+                    <!--Label message-->
+                    <label for="message">Message:</label>
+                    <textarea id="meesage" name="message" rows="5"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Send Message">
+                </div>
+            </form>
         </section>
     </main>
 
